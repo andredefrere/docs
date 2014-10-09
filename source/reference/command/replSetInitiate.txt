@@ -24,7 +24,7 @@ replSetInitiate
            members : [
                {_id : 0, host : <host0>},
                {_id : 1, host : <host1>},
-               {_id : 2, host : <host2>},
+               {_id : 2, host : <host2>}
            ]
       }
 
@@ -39,7 +39,7 @@ replSetInitiate
            members : [
                {_id : 0, host : "rs1.example.net:27017"},
                {_id : 1, host : "rs2.example.net:27017"},
-               {_id : 2, host : "rs3.example.net", arbiterOnly: true},
+               {_id : 2, host : "rs3.example.net", arbiterOnly: true}
            ]
       }
 
